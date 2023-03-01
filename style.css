@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.ourOffer {
+  height: 3%;
+  text-align: center;
+  font-size: 23px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgba(171, 167, 167, 0.652);
+  /* border: 3px solid rgba(225, 9, 9, 0.77); */
+}
+.block {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* gap: 40px; */
+  padding: 3%;
+  font-family: var(--bs-font-sans-serif);
+
+  /* border: 3px solid rgba(225, 9, 9, 0.77);    */
+}
+.block_1 {
+  /* width: 30%; */
+  padding-right: 10%;
+  font-size: 23px;
+  font-weight: bold;
+  margin: px;
+}
+
+.block_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 23px;
+  font-weight: bold;
+  /* width: 20%; */
+  gap: 25px;
+  /* border: 3px solid rgba(26, 181, 198, 0.77); */
+}
+.blockBar {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 15px;
+  /* border: 3px solid rgba(28, 213, 99, 0.77); */
+}
+
+.amountChoose {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#money {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: flex-start; */
+  width: 250px;
+}
+
+#months {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: flex-start; */
+  width: 250px;
+}
+.textCredit {
+  /* border: 3px solid rgba(32, 3, 129, 0.77); */
+  font-family: var(--bs-font-sans-serif);
+  padding-left: 3%;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  height: 10px;
+  border-radius: 5px;
+  /* background-image: linear-gradient(#068da2, #068da2); */
+  background-image: linear-gradient(#86898a, #c8ccce);
+  
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  cursor: ew-resize;
+  background: #22c6ad;
+  /* box-shadow: 0 0 2px 0 #555; */
+  transform: background 0.3s ease-in-out;
+}

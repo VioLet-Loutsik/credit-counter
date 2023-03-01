@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="ourOffer"></div>
+    <div class="block">
+    <div class="block_1">
+        <!-- <div class="moneyBlock">-->  
+        <!-- </div> -->
+        <div class="blockBar"> 
+            <div>
+            <label for="money">Amount requested</label> 
+            <div class="amountChoose">
+            </div>
+            <div><input type="range" id="money"          
+            min="0" max="5000" value="100"></div>
+            <div><p class="moneyShow"></p></div>
+            </div>
+            <!-- value - задаем дефолтное значение -->
+        </div>
+        <div class="blockBar"> 
+            <div>        
+            <label for="months">Choose period</label></div>
+            <div class="amountChoose">
+            <div><input type="range" id="months" 
+            min="1" max="24" value="1"></div>
+            <p class="periodChose"></p>     
+            <!-- value - задаем дефолтное значение -->
+            </div>
+        </div>
+    </div> 
+        <div class="block_2">
+        <!-- <div class="amountBlock"> -->
+        <div>
+                <p>The whole amount:</p>
+            <p class="wholeAmount" id="pText"></p>
+        </div>
+            <div>
+                <p>Percent:</p>
+            <p class="percent" id="pText"></p>
+        </div>
+        <!-- </div> -->
+        </div>
+        </div>        
+        <div class="textCredit">
+            <p>minimum loan amount 100 $</p>
+            <p>maximum loan amount 5000 $</p>
+            <p>if you take out a loan for a period of more than six months, the interest rate drops by 0.5 percent</p>
+            <p>if you take out a loan for a period of more than twelve months, the interest rate drops by 1 percent</p>
+            <p>if you take a loan for two years, the interest rate drops by 1.5 percent</p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
